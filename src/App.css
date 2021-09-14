@@ -1,0 +1,39 @@
+:root {
+  --green: #66cc33;
+  --red: #cc3300;
+  --white: #ffffff;
+  --darkGrey: #333366;
+  --black: #333333;
+}
+
+.App {
+  text-align: center;
+}
+/* Nav Bar */
+.navBar {
+  background-color: var(--green);
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.navBar a {
+  color: var(--white);
+}
+.navBar a:hover {
+  color: var(--darkGrey);
+}
+/* End Nav Bar */
+
+.ItemProp {
+  font-weight: 800;
+}
+
+.searchItems {
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: lightcyan;
+}
+.activeItem {
+  background-color: lightblue;
+}
