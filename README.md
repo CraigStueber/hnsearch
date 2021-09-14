@@ -1,3 +1,5 @@
+This was a fun exercise I did for RTS Labs my DREAM JOB. I hope it is to your liking
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
