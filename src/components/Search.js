@@ -10,7 +10,7 @@ const Search = () => {
     const [currentIndex, setCurrentIndex] = React.useState();
     const [currentItem, setCurrentItem] = React.useState(null);
     const [searchHistory, setSearchHistory] = React.useState(
-        JSON.parse(localStorage.getItem('searchHistory'))
+        JSON.parse(localStorage.getItem('searchHistory')) || []
     );
 
     
@@ -67,7 +67,7 @@ const Search = () => {
                     <h1> Hacker News Search</h1>
                     <form className="input-group " onSubmit={handleSubmit}>
                         <input className="form-control" value={searchItem} type="text" onChange={onChange} />
-                        <button className="btn btn-outline-secondary mx-2"type="submit">Search</button>
+                        <button className="btn btnRed"type="submit">Search</button>
                     </form>
                 </div>
                 <div className="col-md-6">

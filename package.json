@@ -1,5 +1,6 @@
 {
   "name": "hnapi",
+  "homepage": "http://www.craigstueber.com/rtslabs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3"
   },

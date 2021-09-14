@@ -1,11 +1,13 @@
 :root {
-  --green: #66cc33;
+  --green: rgb(102, 204, 51);
   --red: #cc3300;
   --white: #ffffff;
   --darkGrey: #333366;
   --black: #333333;
 }
-
+img {
+  max-width: 100%;
+}
 .App {
   text-align: center;
 }
@@ -23,17 +25,43 @@
   color: var(--darkGrey);
 }
 /* End Nav Bar */
-
+/* Home Page */
+.imgMe {
+  display: block;
+  margin: 1rem auto;
+  height: 50vh;
+}
+.ImgFamily {
+  display: block;
+  margin: 1rem auto;
+  width: 40vw;
+}
+.QuoteDiv {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 2rem;
+  text-align: center;
+}
+/* End Home Page */
+/* Search Page */
 .ItemProp {
   font-weight: 800;
 }
-
+.btnRed {
+  background-color: var(--red);
+  color: var(--white);
+  padding: 0.5rem;
+  font-weight: 600;
+  width: 10vw;
+}
 .searchItems {
   cursor: pointer;
-  border: 1px solid black;
+  font-size: 1.3rem;
+  color: var(--white);
   padding: 1rem;
-  background-color: lightcyan;
+  background-color: var(--green);
 }
 .activeItem {
-  background-color: lightblue;
+  background-color: var(--red);
 }
+/* End Search Page */
